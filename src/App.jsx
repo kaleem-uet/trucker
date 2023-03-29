@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import Typography from '@mui/material/Typography'
-import { styled } from '@mui/material';
+import { styled, Container } from '@mui/material';
+import DrawerAppBar from './components/AppBar';
 
 function App() {
 
   return (
-   <div>
-    <CustomTypo variant="h1" color="initial">
-      Lorem ipsum dolor sit.
-    </CustomTypo>
-   </div>
+   <>
+   
+   <DrawerAppBar/>
+   </>
   )
 }
 
